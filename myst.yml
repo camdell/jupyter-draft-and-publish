@@ -1,0 +1,18 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 207d3306-9636-40c6-b663-942c1fda1690
+  # title:
+  # description:
+  # keywords: []
+  authors:
+    - name: Cameron Riddell
+      email: cameron@dutc.io
+      orcid: https://orcid.org/0000-0001-8950-0375
+  github: https://github.com/camdell/jupyter-draft-and-publish
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png

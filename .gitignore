@@ -1,2 +1,7 @@
 # pixi environments
 .pixi
+
+# MyST build outputs
+_build
+
+.ipynb_checkpoints
