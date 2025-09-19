@@ -37,7 +37,7 @@ jobs:
           pixi-version: v0.49.0
           cache: true
       - name: Build HTML Assets
-        run: pixi run myst build --html
+        run: pixi run myst build --html --execute
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
