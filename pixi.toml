@@ -1,0 +1,12 @@
+[workspace]
+authors = ["Cameron Riddell <cameron@dutc.io>"]
+channels = ["conda-forge"]
+name = "jupyter-draft-and-publish"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyterlab = ">=4.4.7,<5"
+python = "3.13.*"
